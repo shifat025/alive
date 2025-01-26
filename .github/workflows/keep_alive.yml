@@ -12,4 +12,4 @@ jobs:
       - name: Ping Sellstream App
         run: |
           curl -X GET https://sellstreams1.onrender.com/doc/
-          curl -X GET https://quiz-application-vzaz.onrender.com/
+          curl -X GET https://quiz-application-vzaz.onrender.com
