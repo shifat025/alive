@@ -2,7 +2,7 @@ name: Keep Sellstream App Alive
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Runs every 10 minutes
+    - cron: '*/8 * * * *'  # Runs every 10 minutes
 
 jobs:
   keep-alive:
@@ -12,3 +12,4 @@ jobs:
       - name: Ping Sellstream App
         run: |
           curl -X GET https://sellstreams1.onrender.com/doc/
+          curl -X GET https://quiz-application-vzaz.onrender.com/
