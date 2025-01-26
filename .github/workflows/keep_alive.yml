@@ -2,7 +2,7 @@ name: Keep App Alive
 
 on:
   schedule:
-    - cron: '*/8 * * * *'  # Runs every 10 minutes
+    - cron: '*/8 * * * *'  # Runs every 8 minutes
 
 jobs:
   keep-alive:
@@ -13,3 +13,4 @@ jobs:
         run: |
           curl -X GET https://sellstreams1.onrender.com/doc/
           curl -X GET https://quiz-application-vzaz.onrender.com/
+          curl -X GET https://pet-adoption-bd.onrender.com/
