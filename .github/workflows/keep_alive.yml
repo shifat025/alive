@@ -1,4 +1,4 @@
-name: Keep Sellstream App Alive
+name: Keep App Alive
 
 on:
   schedule:
